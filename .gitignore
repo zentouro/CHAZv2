@@ -1,0 +1,7 @@
+### exclude large data files
+/pre/*.nc
+/pre/*.mat
+/output/*
+/PI/*.mat
+/input/*.nc
+/process_ERA5/*.nc
