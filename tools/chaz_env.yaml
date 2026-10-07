@@ -1,0 +1,24 @@
+name: chaz
+
+channels: 
+  - conda-forge
+
+dependencies: 
+  - numpy
+  - pandas
+  - scipy
+  - netcdf4
+  - xarray
+  - statsmodels
+  - cftime
+  - dask
+  - toolz
+  - jupyterlab
+  - cartopy 
+  - matplotlib
+  - pooch
+  - numba
+  - netcdftime
+
+  #Aux
+  - tqdm
