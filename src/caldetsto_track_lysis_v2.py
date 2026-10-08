@@ -542,6 +542,7 @@ def defineBasin(lon0_obs,lat0_obs,basinlon,basinlat,basinMap):
 
 
 def clean_up_save(bt, iy, ichaz):
+
     if not gv.quiet: print('***CLEANING UP and SAVING .NC***')
 
     ## DEBUGGING
@@ -578,6 +579,7 @@ def clean_up_save(bt, iy, ichaz):
         
         #### get basin-information
         lon0,lat0 = bt1.StormLon[0,:],bt1.StormLat[0,:]
+        xbin, ybin, basinMap = util.getbasinMap()
         basin = util.defineBasin(lon0,lat0,xbin,ybin,basinMap)
 
         #### nan-masking 
