@@ -38,13 +38,6 @@ local_random_state = gv.local_random
 seed = gv.random_seed
 rng = np.random.default_rng(seed=seed)
 
-jetcmap = plt.cm.get_cmap("jet",31)
-jet_vals = jetcmap(np.arange(31))
-cmap1 = mcolors.LinearSegmentedColormap.from_list('newjet', jet_vals)
-colors = jet_vals
-colorcat = np.arange(0,155,5) 
-xbin,ybin,basinMap = util.getbasinMap()
-
 
 def get_determin():
     '''
