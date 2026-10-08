@@ -18,7 +18,6 @@ dependencies:
   - matplotlib
   - pooch
   - numba
-  - netcdftime
   - cdsapi          ## for downloading ERA5 data
 
   #Aux
