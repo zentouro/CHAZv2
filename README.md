@@ -103,7 +103,9 @@ In CHAZ, Namelist.py defines all global variables such as the source of the glob
 
 
 ### Downloading data
-This iteration of CHAZ uses data from ERA5. To download data in the appropriate format to run CHAZ, run `era5_download.py` to collect monthly information, `era5_download_daily.py` to collect 6-hourly data, and `convert6hourly-daily.py` to convert the 6-hourly data into daily data. Once downloaded files, create a `.txt` file so that CHAZ can access this data. 
+This iteration of CHAZ uses data from ERA5. To download data in the appropriate format to run CHAZ, run `era5_download.py` to collect monthly information, `era5_download_daily.py` to collect 6-hourly data, and `convert6hourly-daily.py` to convert the 6-hourly data into daily data. This relies on the ECMWF data store's API, which you can learn more about [here](https://confluence.ecmwf.int/spaces/CKB/pages/140380488/How+to+install+and+use+CDS+API+on+macOS).
+
+Once downloaded files, create a `.txt` file so that CHAZ can access this data. 
 
 For example: 
 
