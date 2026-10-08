@@ -5,3 +5,6 @@
 /PI/*.mat
 /input/*.nc
 /process_ERA5/*.nc
+/CHAZv2-tutorial/*.nc
+/CHAZv2-tutorial/*.pik
+/CHAZv2-tutorial/*.pkl

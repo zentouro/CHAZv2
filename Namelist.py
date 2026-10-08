@@ -62,7 +62,7 @@ output_path = 'output/'
 ## Sample time frame, with full ERA5 and input data
 ## CHAZ can be run from 1950 to present
 Year1 = 2020
-Year2 = 2025
+Year2 = 2026
 
 ### Defining landmask
 llon, llat,lldmask = get_landmask(landmaskfile)
@@ -80,7 +80,7 @@ lldmask = lldmask[::-1,:]               ## flips latitudes so they are in the ri
 ####                                            ####
 #####################################################
 
-overwrite = True      ## select True to overwrite output                         
+overwrite = False      ## select True to overwrite output                         
 
 
 ## for replicability, can define a random seed

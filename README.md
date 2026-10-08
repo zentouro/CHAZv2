@@ -1,3 +1,6 @@
+** THIS IS A TEMPORARY REPOSITORY FOR DEMONSTRATION PURPOSES ONLY **
+Please see the main CHAZ repository here: https://github.com/cl3225/CHAZ
+
 # CHAZ (Columbia Tropical Cyclone Hazard Model)
 
 ## I. Overview 
@@ -127,7 +130,7 @@ They are `TCGI_YYYY.mat`, `r1i1p1_YYYY.nc` (from calPreprocess), `A_YYYYMM.nc` (
 
 4. Determine if you would like to overwrite pre-existing output. 
 
-5. To run, type `$ ./CHAZ.py` or `$ python CHAZ.py`
+5. To run, type `$ python CHAZ.py`
 
 See [downscaling example](https://drive.google.com/drive/folders/1UvaZ6W4B4oCNCQtSVq0ayA1bF3S2JJLb?usp=sharing) for reference.
 

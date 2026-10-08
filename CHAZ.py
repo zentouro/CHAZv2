@@ -71,7 +71,7 @@ if gv.runPreprocess:
       calA.run_calA()
    t3 = time.time()
 
-if not gv.quiet: print(f'Preprocess run times: calWind={t1-t0:.2f}  calpreProcess={t2-t1:.2f}  calA={t3-t2:.2f}')
+   if not gv.quiet: print(f'Preprocess run times: calWind={t1-t0:.2f}  calpreProcess={t2-t1:.2f}  calA={t3-t2:.2f}')
 
 
 #######################
@@ -85,7 +85,8 @@ if gv.runCHAZ:
       if not gv.quiet: print ('get Seeding ratio for', gv.Model, gv.ENS)
       ipath = gv.pre_path
 
-      ratio = GBP_vectorized.get_seeding_ratio(ipath, 1981, 2005)
+      ## 
+      ratio = GBP_v2.get_seeding_ratio(ipath, 1981, 2005)
       if not gv.quiet: print ('The seeding ratio is',ratio)
 
    
