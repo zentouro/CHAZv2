@@ -62,7 +62,7 @@ output_path = 'output/'
 ## Sample time frame, with full ERA5 and input data
 ## CHAZ can be run from 1950 to present
 Year1 = 2020
-Year2 = 2026
+Year2 = 2025
 
 ### Defining landmask
 llon, llat,lldmask = get_landmask(landmaskfile)
